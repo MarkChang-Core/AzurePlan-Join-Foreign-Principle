@@ -40,7 +40,7 @@ Step 3. 最後請輸入以下指令將間接經銷商以Foreign Principle身分�
 
 ```New-AzRoleAssignment -ObjectId 4c238b06-6166-4ecb-b243-371694e70ea3 -RoleDefinitionName "Owner" -Scope "/subscriptions/CustomerSubscriptionID" -ObjectType "ForeignGroup"```
 
-※ 其中，ResellerObjectId 請更換為 [事前準備]() 中的AdminAgents；CustomerSubscriptionID 請更換為 [事前準備]() 中的Azure Subscription Account ID
+※ 其中，ResellerObjectId 請更換為 [事前準備](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1.md#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99) 中的AdminAgents；CustomerSubscriptionID 請更換為 [事前準備](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1.md#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99) 中的Azure Subscription Account ID
 
 ![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image3.jpg)<br>
 
