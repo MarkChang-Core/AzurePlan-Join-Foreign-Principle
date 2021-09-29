@@ -12,7 +12,7 @@ Connect-AzAccount
 
 ![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image2-1.jpg)<br>
 
-Step2. 輸入以下指令取得AdminAgents的Object ID
+Step2. 輸入以下指令取得AdminAgents的Object ID，Object ID的位置於下圖紅框處 -
 
 ```
 Get-AzADGroup -DisplayName AdminAgents
