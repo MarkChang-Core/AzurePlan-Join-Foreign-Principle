@@ -6,17 +6,19 @@
 
 - Azure Subscription Account Owner -
 
-需具備一組於於客戶的Azure Subsciption Account為Owner角色的登入帳號與密碼，關於如此新增Owner，請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-1.md)進行。
+  需具備一組於於客戶的Azure Subsciption Account為Owner角色的登入帳號與密碼，關於如此新增Owner，請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-     Principle/blob/main/Lab1-1.md)進行。
 
 - AdminAgents Object ID -
 
-需查詢到Partner Center 的 AdminAgents Object ID，如何查詢請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-2.md)
+  需查詢到Partner Center 的 AdminAgents Object ID，如何查詢請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-2.md)
 
 - Azure Subscription Account ID
 
 - Powershell Module 與 .NET Framework 4.7 -
 
-確認Powershell已安裝Azure Az PowerShell module，如何安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
+  確認Powershell已安裝Azure Az PowerShell module，如何安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
+
+---------------------------------------
 
 當以上三點均取得後，即可依據以下步驟操作。
 
