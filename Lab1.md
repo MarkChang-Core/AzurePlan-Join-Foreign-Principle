@@ -52,4 +52,3 @@ Step 3. 最後請輸入以下指令將間接經銷商以Foreign Principle身分�
 
 - 於Partner Center中搜尋到客戶名稱，並於 Service Management > Microsoft Azure Management Portal 嘗試登入查看
 
-![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image5.jpg)<br>
