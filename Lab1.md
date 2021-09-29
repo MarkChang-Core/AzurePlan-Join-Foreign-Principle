@@ -4,21 +4,45 @@
 
 以下資訊必須事前完成蒐集與準備 -
 
-- 需具備一組於於客戶的Azure Subsciption Account為Owner角色的登入帳號與密碼，關於如此新增Owner，請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-1.md)進行。
+- Azure Subscription Account Owner -
 
-- 需查詢到Partner Center 的 AdminAgents Object ID，如何查詢請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-2.md)
+需具備一組於於客戶的Azure Subsciption Account為Owner角色的登入帳號與密碼，關於如此新增Owner，請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-1.md)進行。
 
-- 需取得客戶的Azure Subscription Account ID
+- AdminAgents Object ID -
+
+需查詢到Partner Center 的 AdminAgents Object ID，如何查詢請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-2.md)
+
+- Azure Subscription Account ID
+
+- Powershell Module 與 .NET Framework 4.7 -
+
+確認Powershell已安裝Azure Az PowerShell module，如何安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
 
 當以上三點均取得後，即可依據以下步驟操作。
 
 ### 操作加入 Foreign Principle
 
-Step 1. 
+Step 1. 請先以系統管理員身分開啟Powershell，並輸入以下指令登入Azure Account -
 
-Step 2. 
+```Connect-AzAccount```
 
-Step 3.
+![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image1.jpg)<br>
+
+Step 2. 接者將登入的帳號切換至客戶的Azure Subscription Account，請輸入以下指令進行 -
+
+```Set-AzContext -SubscriptionId CustomerSubscriptionID```
+
+※ 其中 CustomerSubscriptionID 請更換為客戶於Azure Subscription Account > 概觀 > 訂用帳戶 ID
+
+![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image2.jpg)<br>
+
+Step 3. 最後請輸入以下指令將間接經銷商以Foreign Principle身分加入客戶的Azure Subscription Account成為Owner -
+
+```New-AzRoleAssignment -ObjectId 4c238b06-6166-4ecb-b243-371694e70ea3 -RoleDefinitionName "Owner" -Scope "/subscriptions/CustomerSubscriptionID" -ObjectType "ForeignGroup"```
+
+※ 其中，ResellerObjectId 請更換為 [事前準備]() 中的AdminAgents；CustomerSubscriptionID 請更換為 [事前準備]() 中的Azure Subscription Account ID
+
+![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image3.jpg)<br>
 
 ### 驗證是否已加入成功
 
