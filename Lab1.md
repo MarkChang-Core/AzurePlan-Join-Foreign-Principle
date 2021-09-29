@@ -1,13 +1,28 @@
 ## Azure Plan - 經銷商加入 Foreign Principle
 
-當CSP協助建立Azure Plan(CPS v2)之後，通常將會CSP本身的Foreign Principle加入至Azure Plan訂用帳戶中成為IAM的Owner，
+### 事前準備
 
-這時CSP可透過Microsoft Partner Center以Foreign Principle角色登入客戶的Azure Portal協助管理，
+以下資訊必須事前完成蒐集與準備 -
 
-但間接經銷商卻經常不會進行主動加入的功能，因此經常間接經銷商協助客戶維運的方式均是額外建立一組帳號並加入IAM成為Owner，
+- 需具備一組於於客戶的Azure Subsciption Account為Owner角色的登入帳號與密碼，關於如此新增Owner，請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-1.md)進行。
 
-但此方式對於間接經銷商將會造成不便，因為當客戶數量增加的時候，便會需要紀錄多組的登入帳號、密碼，若疏於管理更可能導致資安風險。
+- 需查詢到Partner Center 的 AdminAgents Object ID，如何查詢請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-2.md)
 
-因此本篇文章主要協助間接經銷商將自己的Foreign Principle加入客戶的Azure Subscription Account中，
+- 需取得客戶的Azure Subscription Account ID
 
-如此便可以類似代理登入的方式，統一透過Partner Center管理客戶。
+當以上三點均取得後，即可依據以下步驟操作。
+
+### 操作加入 Foreign Principle
+
+Step 1. 
+
+Step 2. 
+
+Step 3.
+
+### 驗證是否已加入成功
+
+- 於Azure Subscription Account > IAM 中查看角色
+
+- 於Partner Center中搜尋到客戶名稱，並於 Service Management > Microsoft Azure Management Portal 嘗試登入查看
+
