@@ -33,20 +33,22 @@ Connect-AzAccount
 Step 2. 接者將登入的帳號切換至客戶的Azure Subscription Account，請輸入以下指令進行 -
 
 ```
-Set-AzContext -SubscriptionId _CustomerSubscriptionID_
+Set-AzContext -SubscriptionId CustomerSubscriptionID
 ```
 
-※ 其中 CustomerSubscriptionID 請更換為客戶於Azure Subscription Account > 概觀 > 訂用帳戶 ID
+※ 其中 _CustomerSubscriptionID_ 請更換為客戶於Azure Subscription Account > 概觀 > 訂用帳戶 ID
 
 ![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image2.jpg)<br>
 
 Step 3. 最後請輸入以下指令將間接經銷商以Foreign Principle身分加入客戶的Azure Subscription Account成為Owner -
 
 ```
-New-AzRoleAssignment -ObjectId _ResellerObjectId_ -RoleDefinitionName "Owner" -Scope "/subscriptions/_CustomerSubscriptionID_" -ObjectType "ForeignGroup"
+New-AzRoleAssignment -ObjectId ResellerObjectId -RoleDefinitionName "Owner" -Scope "/subscriptions/CustomerSubscriptionID" -ObjectType "ForeignGroup"
 ```
 
-※ 其中，ResellerObjectId 請更換為 [事前準備](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1.md#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99) 中的AdminAgents；CustomerSubscriptionID 請更換為 [事前準備](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1.md#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99) 中的Azure Subscription Account ID
+※ 其中，_ResellerObjectId_ 請更換為 [事前準備](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1.md#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99) 中的AdminAgents
+
+※ 其中，_CustomerSubscriptionID_ 請更換為 [事前準備](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1.md#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99) 中的Azure Subscription Account ID
 
 ![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image3.jpg)<br>
 
