@@ -12,4 +12,4 @@
 
 如此便可以類似代理登入的方式，統一透過Partner Center管理客戶。
 
-開始進行Foreign Principle的新增，請前往[Lab 1](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1.md)。
+開始進行Foreign Principle的新增，請前往[開始操作](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1.md)。
