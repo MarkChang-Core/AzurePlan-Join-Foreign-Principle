@@ -1,6 +1,4 @@
-## Azure Plan - 經銷商加入 Foreign Principle
-
-### 於Azure Subscription Account > IAM 中加入 Owner 角色
+## 於Azure Subscription Account > IAM 中加入 Owner 角色
 
 Step 1. 登入 Azure Portal (https://portal.azure.com/)
 
