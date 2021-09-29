@@ -56,7 +56,7 @@ New-AzRoleAssignment -ObjectId ResellerObjectId -RoleDefinitionName "Owner" -Sco
 
 ![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image3.jpg)<br>
 
-------------------------------------------------------
+---------------------------------------
 
 ### 驗證是否已加入成功
 
