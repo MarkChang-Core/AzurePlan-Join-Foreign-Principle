@@ -11,3 +11,5 @@
 因此本篇文章主要協助間接經銷商將自己的Foreign Principle加入客戶的Azure Subscription Account中，
 
 如此便可以類似代理登入的方式，統一透過Partner Center管理客戶。
+
+點擊[這裡](https://github.com/MarkChang-Core/AADC/blob/main/Lab1.md)開始進行Foreign Principle的新增。
