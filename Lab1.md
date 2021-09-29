@@ -13,8 +13,7 @@
   Install-Module -Name Az.Resources -Force -Verbose
   Import-Module -Name Az.Resources -Verbose -MinimumVersion 4.1.1!
   ```
-  [image](https://user-images.githubusercontent.com/67568713/135269659-b576632e-9f16-492f-89cf-4d0a02ecc9c3.png)
-
+  
 - **Azure Subscription Account Owner -**
 
   需具備一組於於客戶的Azure Subsciption Account為Owner角色的登入帳號與密碼，關於如此新增Owner，請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-1.md)
