@@ -1,8 +1,6 @@
-## Azure Plan - 經銷商加入 Foreign Principle
+## 查詢Partner Center AdminAgents Object ID
 
-操作必要條件：已安裝 **Azure Az Powershell Module 與 .NET Framework 4.7**，關於安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
-
-### 查詢Partner Center AdminAgents Object ID
+_注意!!_ 操作必要條件：已安裝 **Azure Az Powershell Module 與 .NET Framework 4.7**，關於安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
 
 Step1. 請先以系統管理員身分開啟Powershell，並輸入以下指令登入Azure Account -
 
