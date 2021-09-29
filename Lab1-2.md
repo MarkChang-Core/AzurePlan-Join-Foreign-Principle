@@ -1,8 +1,6 @@
 ## Azure Plan - 經銷商加入 Foreign Principle
 
-操作必要條件：已安裝 **Azure Az Powershell Module 與 .NET Framework 4.7**
-
-關於安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
+操作必要條件：已安裝 **Azure Az Powershell Module 與 .NET Framework 4.7**，關於安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
 
 ### 查詢Partner Center AdminAgents Object ID
 
