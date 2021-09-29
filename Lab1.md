@@ -18,9 +18,9 @@
 
   確認Powershell已安裝Azure Az PowerShell module，如何安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
 
----------------------------------------
-
 當以上三點均取得後，即可依據以下步驟操作。
+
+---------------------------------------
 
 ### 操作加入 Foreign Principle
 
@@ -53,6 +53,8 @@ New-AzRoleAssignment -ObjectId ResellerObjectId -RoleDefinitionName "Owner" -Sco
 ※ 其中，_CustomerSubscriptionID_ 請更換為 [事前準備](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1.md#%E4%BA%8B%E5%89%8D%E6%BA%96%E5%82%99) 中的Azure Subscription Account ID
 
 ![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image3.jpg)<br>
+
+------------------------------------------------------
 
 ### 驗證是否已加入成功
 
