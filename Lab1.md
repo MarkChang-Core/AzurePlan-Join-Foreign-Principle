@@ -14,6 +14,10 @@
 
 - **Azure Subscription Account ID -**
 
+  請登入客戶端Azure Portal後，點擊由CSP創建的Azure Subscription Account，並於概觀中找到「訂用帳戶ID」
+
+  ![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/icon.jpg)<br>
+
 - **Powershell Module 與 .NET Framework 4.7 -**
 
   確認Powershell已安裝Azure Az PowerShell module，如何安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
