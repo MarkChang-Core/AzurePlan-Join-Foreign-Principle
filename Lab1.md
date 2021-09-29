@@ -16,7 +16,7 @@
 
   請登入客戶端Azure Portal後，點擊由CSP創建的Azure Subscription Account，並於概觀中找到「訂用帳戶ID」
   
-  ![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/image2.jpg =50%x)<br>
+  ![GITHUB](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/icon.png =50%x)<br>
   
   <img scr="https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/icon.png" width="50%"/>
 
