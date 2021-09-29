@@ -4,6 +4,10 @@
 
 以下資訊必須事前完成蒐集與準備 -
 
+- **Powershell Module 與 .NET Framework 4.7 -**
+
+  請先確認操作的電腦已安裝 .NET Framework 4.7，且Powershell已安裝Azure Az PowerShell module，關於安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
+
 - **Azure Subscription Account Owner -**
 
   需具備一組於於客戶的Azure Subsciption Account為Owner角色的登入帳號與密碼，關於如此新增Owner，請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/Lab1-1.md)進行。
@@ -14,13 +18,7 @@
 
 - **Azure Subscription Account ID -**
 
-  請登入客戶端Azure Portal後，點擊由CSP創建的Azure Subscription Account，並於概觀中找到「訂用帳戶ID」
-  
-  ![](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/icon.png =30x30)
-
-- **Powershell Module 與 .NET Framework 4.7 -**
-
-  確認Powershell已安裝Azure Az PowerShell module，如何安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
+  請登入客戶端Azure Portal後，點擊由CSP創建的Azure Subscription Account，並於「概觀」中找到「訂用帳戶ID」
 
 當以上三點均取得後，即可依據以下步驟操作。
 
