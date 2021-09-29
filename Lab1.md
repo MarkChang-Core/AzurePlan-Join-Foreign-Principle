@@ -4,7 +4,7 @@
 
 以下資訊必須事前完成蒐集與準備 -
 
-- **Powershell Module 與 .NET Framework 4.7 -**
+- **Azure Az Powershell Module 與 .NET Framework 4.7 -**
 
   請先確認操作的電腦已安裝 .NET Framework 4.7，且Powershell已安裝Azure Az PowerShell module，關於安裝請參考[這裡](https://docs.microsoft.com/zh-tw/powershell/azure/install-az-ps?view=azps-6.4.0)
 
@@ -30,8 +30,14 @@
 
 ### 操作加入 Foreign Principle
 
-請先確認以蒐集「Object ID」、「Azure Subscription Account ID」
+請先確認接下來操作登入的帳號於客戶的Azure Subscription Account中，具備有「Owner」的權限。
 
+同時也請確認已完成蒐集「AdminAgents Object ID」、「Azure Subscription Account ID」
+
+並且操作的PC已安裝完成 .NET Frameworkk 4.7以上版本、Powershell也完成各項Module的安裝。
+
+</br>
+</br>
 
 Step 1. 請先以系統管理員身分開啟Powershell，並輸入以下指令登入Azure Account -
 
