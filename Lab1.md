@@ -6,7 +6,7 @@
 
 - Azure Subscription Account Owner -
 
-  需具備一組於於客戶的Azure Subsciption Account為Owner角色的登入帳號與密碼，關於如此新增Owner，請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-     Principle/blob/main/Lab1-1.md)進行。
+  需具備一組於於客戶的Azure Subsciption Account為Owner角色的登入帳號與密碼，關於如此新增Owner，請點選[這裡](https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-    Principle/blob/main/Lab1-1.md)進行。
 
 - AdminAgents Object ID -
 
