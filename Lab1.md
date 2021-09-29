@@ -16,7 +16,7 @@
 
   請登入客戶端Azure Portal後，點擊由CSP創建的Azure Subscription Account，並於概觀中找到「訂用帳戶ID」
   
-  <img scr="https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/icon.png" width="100"/>
+  <img scr="https://github.com/MarkChang-Core/AzurePlan-Join-Foreign-Principle/blob/main/image/icon.png" width="500"/>
 
 - **Powershell Module 與 .NET Framework 4.7 -**
 
